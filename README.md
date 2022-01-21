@@ -76,3 +76,7 @@ For all of your code, please comment and test fully.
 ## Last words.
 
 Feel free to show off, be excellent and show me what you can do.  If you want to add something that isn't covered by the requirements, please add it and explain why you've added it.  If you cannot fully answer any of the requirements, but can explain how you would start investigating a solution, please add those details.
+
+## Contact Details
+
+Any questions you might have, please raise an issue and I will answer them there
