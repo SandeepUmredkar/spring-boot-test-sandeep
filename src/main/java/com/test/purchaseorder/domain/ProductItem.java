@@ -6,6 +6,8 @@ import javax.persistence.OneToMany;
 
 import lombok.Data;
 
+import java.util.Set;
+
 @Data
 @Entity
 public class ProductItem {
@@ -18,6 +20,6 @@ public class ProductItem {
 	private Double lineCost;
 
 	@OneToMany
-	private PurchaseOrder purchaseOrder;
+	private Set<PurchaseOrder> purchaseOrder;
 
 }

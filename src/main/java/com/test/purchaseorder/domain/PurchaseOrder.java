@@ -1,6 +1,7 @@
 package com.test.purchaseorder.domain;
 
 import java.sql.Timestamp;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -24,7 +25,7 @@ public class PurchaseOrder {
 
 	//product line items
 	@OneToMany
-	private ProductItem productItem;
+	private Set<ProductItem> productItem;
 
 
 }

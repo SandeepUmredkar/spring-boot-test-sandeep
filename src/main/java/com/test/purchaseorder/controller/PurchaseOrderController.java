@@ -14,12 +14,12 @@ public class PurchaseOrderController {
     @Autowired
     PurchaseOrderService purchaseOrderService;
 
-    @GetMapping
+    @GetMapping("/getPurchaseOrders")
     public List<PurchaseOrder> getPurchaseOrders(){
         return purchaseOrderService.getPurchaseOrders();
     }
 
-    @GetMapping
+    @GetMapping("/getPurchaseOrder/{id}")
     public PurchaseOrder getPurchaseOrder(Integer purchaseOrderId){
         return purchaseOrderService.getPurchaseOrder(purchaseOrderId);
     }
